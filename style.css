@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    
+  }
+  .ca-cont{
+    padding: 20px;
+  
+    
+  }
+  .ca {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(15, 13, 15);
+    border-radius: 15px;
+    max-width: 700px;
+  }
+  
+  .ca img {
+    width: 50%;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+   
+  }
+  
+  
+  
+  .ca h2 {
+    color: rgba(108, 114, 137, 0.548);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px;
+    
+  }
+  
+  .ca h1 {
+    font-size: 28px;
+    margin: 15px;
+    color: hsl(80, 23%, 95%);
+    
+  }
+  
+  .ca p {
+    font-size: 16px;
+    color: hsla(228, 12%, 48%, 0.541);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding:20px ;
+    
+    
+  }
+  .ca p a{
+    text-decoration:none;
+    color: rgba(50, 39, 114, 0.699);
+  }
+  .price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  }
+  
+
+  
+  .price .oldprice {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-right: 50px;
+  }
+  .price .newprice {
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 50px;
+    
+  }
+  .add {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 50px auto 0 auto; 
+    display: block; 
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    
+  }
+  
+  
+  
+  
+  .add img {
+    width:auto; 
+    margin-right: 10px;
+  
+  }
+  .att{
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 30px; 
+    background-color: hsl(210, 100%, 70%); 
+    padding: 10px ; 
+    color: hsl(336, 51%, 14%);
+    background-color: pink;
+  }
+  
